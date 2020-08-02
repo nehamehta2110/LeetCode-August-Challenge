@@ -38,7 +38,6 @@ class MyHashSet:
             self.my_hash.remove(key)
             print("--{} removed from hashset".format(key))
 
-
     def contains(self, key: int) -> bool:
         """
         Returns true if this set contains the specified element
@@ -47,6 +46,7 @@ class MyHashSet:
             return True
         else:
             return False
+
 
 def main():
     obj = MyHashSet()
@@ -58,6 +58,7 @@ def main():
     print(obj.contains(2))
     obj.remove(2)
     print(obj.contains(2))
+
 
 if __name__ == '__main__':
     main()
