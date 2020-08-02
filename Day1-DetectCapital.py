@@ -13,7 +13,7 @@ Otherwise, we define that this word doesn't use capitals in a right way.
 
 
 class Solution:
-    
+
     def __init__(self, word):
         self.word = word
 
