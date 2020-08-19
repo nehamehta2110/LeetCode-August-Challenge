@@ -20,6 +20,7 @@ class Solution:
             else:
 
                 S[i] = str(S[i])[1:] + str(S[i])[0] + 'ma' + ('a' * (i + 1))
+
         S = ' '.join(S)
         return S
 
